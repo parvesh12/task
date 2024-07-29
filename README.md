@@ -1,1 +1,4 @@
-# task
+# api
+/loadcvs - post
+/customeranalysis - post
+

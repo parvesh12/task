@@ -2,7 +2,6 @@ package api
 
 import (
 	"encoding/csv"
-	"fmt"
 	"log"
 	"os"
 	"strconv"
@@ -25,9 +24,6 @@ func LoadCSV(c *gin.Context) {
 	if err != nil {
 		log.Println(err)
 	}
-
-	fmt.Println(records)
-
 	for _, record := range records {
 
 		order := migration.Orders{
