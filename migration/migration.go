@@ -39,14 +39,17 @@ type OrderItem struct {
 
 type Orders struct {
 	ID              int
-	ProductID       int
-	CustomerID      int
+	ProductID       string
+	CustomerID      string
 	DateOfSale      string
+	Category        string
+	Region          string
+	ProductName     string
 	QuantitySold    int
 	UnitPrice       float64
 	Discount        float64
 	ShippingCost    float64
-	PaymentMethod   string 
+	PaymentMethod   string
 	CustomerName    string
 	CustomerEmail   string
 	CustomerAddress string
