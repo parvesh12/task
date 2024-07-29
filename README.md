@@ -1,4 +1,4 @@
-# api
+# api's
 /loadcvs - post
 /customeranalysis - post
 
@@ -6,4 +6,4 @@
 setup your database in env file
 setup the port in env file
 
-#schema
+# schema
